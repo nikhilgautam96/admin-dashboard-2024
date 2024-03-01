@@ -190,10 +190,8 @@ a {
     > div {
         @include square(10rem);
         border-radius: 50%;
-        border-top: 0.5rem solid rgb(43, 43, 43);
-        border-left: 0.5rem solid rgb(43, 43, 43);
-        border-right: 0.5rem solid white;
-        border-bottom: 0.5rem solid rgb(43, 43, 43);
+        border: 0.5rem solid rgb(43, 43, 43);
+        border-right: 0.5rem solid transparent;
         animation: loading-animation 0.5s linear infinite;
     }
 }
